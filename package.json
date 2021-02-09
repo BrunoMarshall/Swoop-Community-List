@@ -1,0 +1,38 @@
+{
+  "name": "@swoop-exchange/community-token-list",
+  "version": "1.0.0",
+  "description": "◦ The Swoop community token list",
+  "main": "build/swoop-community.tokenlist.json",
+  "files": [
+    "build/swoop-community.tokenlist.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoMarshall/Swoop-Community-List.git"
+  },
+  "keywords": [
+    "swoop",
+    "default",
+    "token",
+    "list"
+  ],
+  "author": "Moody Salem",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/BrunoMarshall/Swoop-Community-List/issues"
+  },
+  "homepage": "https://github.com/BrunoMarshall/Swoop-Community-List#readme",
+  "devDependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "@uniswap/token-lists": "^1.0.0-beta.17",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/swoop-community.tokenlist.json",
+    "prepublishOnly": "yarn test && yarn build"
+  }
+}
