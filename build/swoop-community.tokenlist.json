@@ -1,0 +1,49 @@
+{
+  "name": "Swoop Default List",
+  "timestamp": "2021-02-09T22:44:03.157Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://swoop-exchange.s3-us-west-1.amazonaws.com/swoop.png",
+  "keywords": [
+    "swoop",
+    "default"
+  ],
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0xBD16b0B2eB520b7Ff4A4156d367Ee359Ac19c531",
+      "symbol": "ARANK",
+      "name": "ARANK Token",
+      "decimals": 18,
+      "logoURI": "https://swoop-exchange.s3-us-west-1.amazonaws.com/tokens/ARANK.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x85a1DD919cd605aa2EAD4b01ff1190504BcAb609",
+      "symbol": "EUSK",
+      "name": "Mintbes Token",
+      "decimals": 18,
+      "logoURI": "https://swoop-exchange.s3-us-west-1.amazonaws.com/tokens/EUSK.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7d0546dBb1Dca8108d99Aa389A8e9Ce0C40B2370",
+      "symbol": "LMA",
+      "name": "LMA-Art-Gallery",
+      "decimals": 18,
+      "logoURI": "https://swoop-exchange.s3-us-west-1.amazonaws.com/tokens/LMA.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x7fA202fdb3B0eCB975119cc3A895BFB3104aDA68",
+      "symbol": "SEE",
+      "name": "SeeSwap Token",
+      "decimals": 18,
+      "logoURI": "https://swoop-exchange.s3-us-west-1.amazonaws.com/tokens/SEE.png"
+    }
+  ]
+}
