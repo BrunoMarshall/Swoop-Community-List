@@ -5,7 +5,7 @@ const testnet = require('./tokens/testnet.json');
 module.exports = function buildList() {
   const parsed = version.split('.');
   return {
-    'name': 'Swoop Default List',
+    'name': 'Swoop Community List',
     'timestamp': (new Date().toISOString()),
     'version': {
       'major': +parsed[ 0 ],
@@ -16,7 +16,7 @@ module.exports = function buildList() {
     'logoURI': 'https://swoop-exchange.s3-us-west-1.amazonaws.com/swoop.png',
     'keywords': [
       'swoop',
-      'default'
+      'community'
     ],
     tokens: [
       ...mainnet,

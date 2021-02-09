@@ -1,6 +1,6 @@
 {
-  "name": "Swoop Default List",
-  "timestamp": "2021-02-09T22:44:03.157Z",
+  "name": "Swoop Community List",
+  "timestamp": "2021-02-09T22:53:07.988Z",
   "version": {
     "major": 1,
     "minor": 0,
@@ -10,7 +10,7 @@
   "logoURI": "https://swoop-exchange.s3-us-west-1.amazonaws.com/swoop.png",
   "keywords": [
     "swoop",
-    "default"
+    "community"
   ],
   "tokens": [
     {
